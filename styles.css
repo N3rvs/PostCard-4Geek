@@ -1,0 +1,60 @@
+body {
+  background: black;
+}
+p {
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+.postcard {
+  background: rgb(255, 255, 255);
+  width: 400px;
+  height: 300px;
+  margin: auto;
+}
+
+.postcard-header {
+  display: flex;
+}
+.postcard-header img {
+  width: 50px;
+  height: 50px;
+}
+.postcard-header h1 {
+  font-family: "Roboto Slab";
+  width: 700px;
+  margin: 0;
+}
+.postcard-body {
+  display: flex;
+}
+
+.body-left p:first-child {
+  margin-top: 5px;
+}
+
+.body-left,
+.body-right {
+  padding: 5px;
+}
+
+.postcard-footer {
+  text-align: center;
+}
+input {
+  color: black;
+  font-size: 14px;
+  padding: 10px;
+  border: none;
+  border-bottom: grey;
+}
+
+button {
+  background-color: #0099e5;
+  padding: 7px;
+  border-radius: 30px;
+}
+
+button:hover {
+  background: blue;
+  color: aliceblue;
+}
